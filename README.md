@@ -14,6 +14,7 @@
 - 🖥️ Floating terminal
 
 
+
 ## 🔑⌨️ Key Mappings Guide
 
 ### Leader Key
@@ -34,6 +35,8 @@
 - `<ESC>`     — To normal mode
 - `<i>`       — Insert mode
 
+### File Finder
+<leader>ff — Fuzzy find files (Telescope)
 
 
 ## 🛠️ Installation Guide
