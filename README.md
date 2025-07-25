@@ -13,32 +13,17 @@
 - 🗂️ File explorer (nvim-tree)
 - 🖥️ Floating terminal
 
----
 
-## 🛠️ Installation Guide
+## 🔑⌨️ Key Mappings Guide
 
-#### Windows (PowerShell)
-
-### Prerequisit:
-
-winget install Neovim.Neovim  # Neovim
-winget install Git.Git         # Git
-winget install OpenJS.NodeJS   # Node.js (for LSP)
-winget install python
-
-
-## ⌨️ Neovim Key Mappings Guide
-
-### 🔑 Leader Key
-- **Leader key:** `<Space>` (spacebar)
+### Leader Key
+- **Leader key:** `<Space>`
 
 ### Window Navigation
-| Key Combo |       Action         | |
-|-----------|----------------------| |
-| `<Alt-j>` | Move to window below | |
-| `<Alt-k>` | Move to window above | |
-| `<Alt-h>` | Move to window left  | |
-| `<Alt-l>` | Move to window right | |
+- `<Alt-j>` — Move to window below 
+- `<Alt-k>` — Move to window above 
+- `<Alt-h>` — Move to window left  
+- `<Alt-l>` — Move to window right 
 
 ### Window Splitting
 - `<leader>sv` — Vertical split  
@@ -50,5 +35,18 @@ winget install python
 - `<i>`       — Insert mode
 
 
-## install:
+
+## 🛠️ Installation Guide
+
+### Prerequisit:
+##### (PowerShell)
+
+winget install Neovim.Neovim  # Neovim
+winget install Git.Git         # Git
+winget install OpenJS.NodeJS   # Node.js (for LSP)
+winget install python
+
+### install:
 git clone https://github.com/Daniel-Aridi/nvim-config.git "$env:LOCALAPPDATA\nvim"
+
+
