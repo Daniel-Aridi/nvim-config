@@ -26,5 +26,29 @@ winget install Git.Git         # Git
 winget install OpenJS.NodeJS   # Node.js (for LSP)
 winget install python
 
-#### install:
+
+## ⌨️ Neovim Key Mappings Guide
+
+### 🔑 Leader Key
+- **Leader key:** `<Space>` (spacebar)
+
+### Window Navigation
+| Key Combo |       Action         | |
+|-----------|----------------------| |
+| `<Alt-j>` | Move to window below | |
+| `<Alt-k>` | Move to window above | |
+| `<Alt-h>` | Move to window left  | |
+| `<Alt-l>` | Move to window right | |
+
+### Window Splitting
+- `<leader>sv` — Vertical split  
+- `<leader>sh` — Horizontal split  
+
+### Floating Terminal
+- `<leader>t` — Toggle floating terminal (in normal mode)
+- `<ESC>`     — To normal mode
+- `<i>`       — Insert mode
+
+
+## install:
 git clone https://github.com/Daniel-Aridi/nvim-config.git "$env:LOCALAPPDATA\nvim"
