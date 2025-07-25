@@ -22,4 +22,4 @@ winget install OpenJS.NodeJS   # Node.js (for LSP)
 winget install python
 
 #### install:
-git clone https://github.com/YOUR-USERNAME/nvim-config "$env:LOCALAPPDATA\nvim"
+git clone https://github.com/Daniel-Aridi/nvim-config.git "$env:LOCALAPPDATA\nvim"
