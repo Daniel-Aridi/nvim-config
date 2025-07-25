@@ -1,0 +1,16 @@
+# Plugin manager artifacts
+/plugin/packer_compiled.lua
+
+# LSP/treesitter cache
+**/.cache/
+**/lockfile.json
+
+# Session files
+**/Session.vim
+
+# Spell files
+/spell/*.add
+
+# Temporary files
+*.swp
+*.bak
