@@ -1,5 +1,9 @@
 # 🚀 Modern Neovim Config
 
+## Neovim Setup Preview
+![preview](./assets/preview.png)
+![floating terminal](./assets/floating-terminal.png)
+
 
 ## Features
 - 🌈 Gruvbox colorscheme
@@ -7,6 +11,7 @@
 - 💡 LSP & autocompletion
 - 🧠 Treesitter syntax
 - 🗂️ File explorer (nvim-tree)
+- 🖥️ Floating terminal
 
 ---
 
