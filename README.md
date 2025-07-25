@@ -42,14 +42,18 @@
 ## 🛠️ Installation Guide
 
 ### Prerequisit:
-##### (PowerShell)
 
-winget install Neovim.Neovim  # Neovim
-winget install Git.Git         # Git
-winget install OpenJS.NodeJS   # Node.js (for LSP)
-winget install python
+- Neovim
+- Node.js (for LSP)
 
-### install:
-git clone https://github.com/Daniel-Aridi/nvim-config.git "$env:LOCALAPPDATA\nvim"
+
+### Install:
+
+#### psh
+- git clone https://github.com/Daniel-Aridi/nvim-config.git "$env:LOCALAPPDATA\nvim"
+#### cmd
+- git clone https://github.com/Daniel-Aridi/nvim-config.git "%LOCALAPPDATA%\nvim"
+#### macOS/Linux
+- git clone https://github.com/Daniel-Aridi/nvim-config.git ~/.config/nvim
 
 
