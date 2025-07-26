@@ -13,32 +13,18 @@
 - 🗂️ File explorer (nvim-tree)
 - 🖥️ Floating terminal
 
----
-
-## 🛠️ Installation Guide
-
-#### Windows (PowerShell)
-
-### Prerequisit:
-
-winget install Neovim.Neovim  # Neovim
-winget install Git.Git         # Git
-winget install OpenJS.NodeJS   # Node.js (for LSP)
-winget install python
 
 
-## ⌨️ Neovim Key Mappings Guide
+## 🔑⌨️ Key Mappings Guide
 
-### 🔑 Leader Key
-- **Leader key:** `<Space>` (spacebar)
+### Leader Key
+- **Leader key:** `<Space>`
 
 ### Window Navigation
-| Key Combo |       Action         | |
-|-----------|----------------------| |
-| `<Alt-j>` | Move to window below | |
-| `<Alt-k>` | Move to window above | |
-| `<Alt-h>` | Move to window left  | |
-| `<Alt-l>` | Move to window right | |
+- `<Alt-j>` — Move to window below 
+- `<Alt-k>` — Move to window above 
+- `<Alt-h>` — Move to window left  
+- `<Alt-l>` — Move to window right 
 
 ### Window Splitting
 - `<leader>sv` — Vertical split  
@@ -49,6 +35,28 @@ winget install python
 - `<ESC>`     — To normal mode
 - `<i>`       — Insert mode
 
+### File Explorer (nvim-tree) Navigation
+- `L` on a **folder** — Step into the folder (change root and reload view)
+- `L` on a **file** — Open the file
+- `H` — Step back to the parent folder (change root to parent and reload)
 
-## install:
-git clone https://github.com/Daniel-Aridi/nvim-config.git "$env:LOCALAPPDATA\nvim"
+### File Finder
+- `<leader>ff` — Fuzzy find files (Telescope)
+
+
+## 🛠️ Installation Guide
+
+### Prerequisit:
+
+- Neovim
+- Node.js (for LSP)
+
+
+### Install:
+
+#### psh
+- git clone https://github.com/Daniel-Aridi/nvim-config.git "$env:LOCALAPPDATA\nvim"
+#### cmd
+- git clone https://github.com/Daniel-Aridi/nvim-config.git "%LOCALAPPDATA%\nvim"
+#### macOS/Linux
+- git clone https://github.com/Daniel-Aridi/nvim-config.git ~/.config/nvim
