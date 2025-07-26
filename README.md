@@ -17,10 +17,7 @@
 
 
 ## 🔑⌨️ Key Mappings Guide
-## 🔑⌨️ Key Mappings Guide
 
-### Leader Key
-- **Leader key:** `<Space>`
 ### Leader Key
 - **Leader key:** `<Space>`
 
