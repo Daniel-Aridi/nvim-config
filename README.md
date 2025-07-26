@@ -15,12 +15,20 @@
 
 
 
+
+## 🔑⌨️ Key Mappings Guide
 ## 🔑⌨️ Key Mappings Guide
 
 ### Leader Key
 - **Leader key:** `<Space>`
+### Leader Key
+- **Leader key:** `<Space>`
 
 ### Window Navigation
+- `<Alt-j>` — Move to window below 
+- `<Alt-k>` — Move to window above 
+- `<Alt-h>` — Move to window left  
+- `<Alt-l>` — Move to window right 
 - `<Alt-j>` — Move to window below 
 - `<Alt-k>` — Move to window above 
 - `<Alt-h>` — Move to window left  
